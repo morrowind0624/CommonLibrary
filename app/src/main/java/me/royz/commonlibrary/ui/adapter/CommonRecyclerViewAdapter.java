@@ -58,6 +58,7 @@ public abstract class CommonRecyclerViewAdapter<T> extends RecyclerView.Adapter<
 
         ViewHolder(View itemView) {
             super(itemView);
+
             array = new SparseArray<>();
         }
 
