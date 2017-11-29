@@ -23,6 +23,12 @@ public abstract class CommonRecyclerViewAdapter<T> extends RecyclerView.Adapter<
     protected List<T> list;
     protected int itemResId;
 
+    /**
+     *
+     * @param context
+     * @param list 数据源
+     * @param itemResId item布局
+     */
     protected CommonRecyclerViewAdapter(Context context, List<T> list, int itemResId) {
         this.context = context;
         this.list = list;
