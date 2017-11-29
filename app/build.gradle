@@ -1,10 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
     buildToolsVersion "27.0.1"
     defaultConfig {
-        applicationId "me.royz.commonlibrary"
+//        applicationId "me.royz.commonlibrary"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 1

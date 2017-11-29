@@ -16,13 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        List<String> list = new ArrayList<>();
-        CommonRecyclerViewAdapter adapter = new CommonRecyclerViewAdapter<String>(MainActivity.this, list, R.layout.activity_main) {
-            @Override
-            public void setValueForItem(CommonRecyclerViewAdapter.ViewHolder holder, int position) {
-                holder.getViewById(R.id.test, TextView.class).setText("test");
-            }
 
-        };
     }
 }

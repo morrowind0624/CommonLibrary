@@ -49,7 +49,6 @@ public abstract class CommonRecyclerViewAdapter<T> extends RecyclerView.Adapter<
 
     protected static class ViewHolder extends RecyclerView.ViewHolder {
         SparseArray<View> array;
-        static ViewHolder holder;
 
         ViewHolder(View itemView) {
             super(itemView);
@@ -65,9 +64,5 @@ public abstract class CommonRecyclerViewAdapter<T> extends RecyclerView.Adapter<
             return (T) view;
         }
 
-//        static ViewHolder getViewHolder() {
-//            if (holder)
-//            return holder;
-//        }
     }
 }
